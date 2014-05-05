@@ -1,4 +1,4 @@
-package com.lohika.orest;
+//package com.lohika.orest;
 
 import java.util.Scanner;
 
@@ -7,7 +7,7 @@ public class RandomArray {
 	
 	public static void main(String[] args) {
 		int i, j;
-		
+
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Input first array's dimension, integer -");
 		int N = scan.nextInt();
@@ -37,6 +37,7 @@ public class RandomArray {
 			}
 			
 			}
+	//Method for random array initializing with integers form 0 to 100
 public static int[][] fillArray(int N, int M) {
 	int i, j;
 	for (i=0; i<N; i++) {
